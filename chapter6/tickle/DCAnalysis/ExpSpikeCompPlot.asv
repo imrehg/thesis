@@ -1,0 +1,22 @@
+% Experimental Spike Compensation Analysis
+
+load ExpSpikeCompensationData.mat
+
+for n = 1:length(Vspike)
+    
+    eVolts = [Vdc(n,:); Vdc(n,:)] + [Vx(n)/2 * ones(1,7); -Vx(n)/2 * ones(1,7)];
+    uMotionResults = printUMotion(eVolts);
+    Ey(n) = uMotionResults.linY;
+    Ex(n) = uMotionResults.linX;
+    
+end
+
+% do some linear regression
+
+
+plot(Vspike, Ey, 'b+',...
+    Vspike, Ex, 'r.')
+legend('y-Field', 'x-Field')
+xlabel('V_{spike}')
+ylabel('Electric Field (V/\mum)')
+    

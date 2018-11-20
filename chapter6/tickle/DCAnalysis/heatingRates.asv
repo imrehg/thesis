@@ -1,0 +1,57 @@
+% M-file to print heating rates for noise on different electrodes
+
+el(:,:,1) = [[1 0 0 0 0 0 0];...
+             [0 0 0 0 0 0 0]];
+el(:,:,2) = [[0 1 0 0 0 0 0];...
+             [0 0 0 0 0 0 0]];
+el(:,:,3) = [[0 0 1 0 0 0 0];...
+             [0 0 0 0 0 0 0]];
+el(:,:,4) = [[0 0 0 1 0 0 0];...
+             [0 0 0 0 0 0 0]];
+         
+% ---------------------------
+% Experimental Conditions
+% ---------------------------
+outputResistance = 1e6; %Ohms
+resistorTemp = 300; % K
+trapFrequency = 2*pi*2e6; %rad/sec
+
+
+load coeffs.mat
+
+% -----------------------
+% Physical Constants
+% -----------------------
+massCalcium = 6.65e-26; % kg
+chargeCalcium = 1.602e-19; % C
+boltzmannConstant = 1.3807e-23; % J/K
+planksConstantReduced = 
+
+johnsonSpectralDensity = 4 * boltzmannConstant * resistorTemp * outputResistance;
+
+for i=1:4
+    %CPO Basis
+    cpoBas = toCPOBasis(el(:,:,i));
+    
+    % Calculate the stray fields due to the electrodes
+    Ex(i) = sum(cpoBas .* results.linX) * 1e6; % m^-1
+    Ey(i) = sum(cpoBas .* results.linY) * 1e6;
+    Ez(i) = sum(cpoBas .* results.linZ) * 1e6;
+    
+    % Calculate heating per unit noise power (W*Hz / V^2) 
+    dUdtX(i) = Ex(i)^2 * chargeCalcium^2 / (4 * massCalcium);
+    dUdtY(i) = Ey(i)^2 * chargeCalcium^2 / (4 * massCalcium);
+    dUdtZ(i) = Ez(i)^2 * chargeCalcium^2 / (4 * massCalcium);
+    
+    % ...in units of quanta/sec for Johnson heating
+    dNdtX = 
+    
+    dTdtX(i) = dUdtX(i) / boltzmannConstant;
+    dTdtY(i) = dUdtY(i) / boltzmannConstant;
+    dTdtZ(i) = dUdtZ(i) / boltzmannConstant;
+    
+    johnsonHeating(i) = 4 * resistorTemp * outputResistance * ...
+        (dUdtX(i) + dUdtY(i) + dUdtZ(i));
+    
+end
+    

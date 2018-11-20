@@ -1,0 +1,69 @@
+set terminal eps
+set output 'rfexplots.eps'
+
+set multiplot
+set nodisplay
+
+#**************************************************
+set width 7
+set size ratio 0.7
+set grid
+set title '(c)'
+
+set width 8
+set xrange [0:50]
+set xtics 0,10,50
+#set yrange [600:750]
+#set mytics 600, 10, 740
+set xlabel 'Delay time $\tau$ /ns'
+set ylabel 'Number of Events'
+
+plot 'recool.034' index 0 using ($1*50/256):($2) title '' with dots pointsize 10 colour red
+
+#**************************************************
+set origin 10,0
+
+set width 7
+set size ratio 0.7
+set grid
+set title '(a)'
+
+set width 8
+set xrange [0:50]
+set xtics 0,10,50
+#set yrange [600:750]
+#set mytics 600, 10, 740
+set xlabel 'Delay time $\tau$ /ns'
+set ylabel 'Number of Events'
+
+plot 'recool.034' index 1 using (($1-256)*50/256):($2) title '' with dots pointsize 10 colour red
+#**************************************************
+set origin 0,10
+
+set width 7
+set size ratio 0.7
+set title '(b)'
+
+set width 8
+set xrange [0:50]
+set xtics 0,10,50
+#set yrange [600:750]
+#set mytics 600, 10, 740
+set xlabel 'Delay time $\tau$ /ns'
+set ylabel 'Number of Events'
+
+plot 'recool.034' index 2 using (($1-512)*50/256):($2) title '' with dots pointsize 10 colour red
+
+#**************************************************
+#move 0 to 0,7.5
+#move 1 to 10,7.5
+#move 2 to 5,0
+
+move 0 to 5,0
+move 1 to 0,7.5
+move 2 to 10,7.5
+
+set display
+refresh
+
+set terminal x11

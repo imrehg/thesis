@@ -1,0 +1,86 @@
+function fits = printUMotion(potentials)
+% print on screen the parameters from an analysis of the effect
+% the given potentials will have on micromotion
+
+% first, convert to CPO basis
+fits.cpo_basis = toCPOBasis(potentials);
+
+% -----------------------
+% Physical Constants
+% -----------------------
+massCalcium = 6.65e-26; % kg
+chargeCalcium = 1.602e-19; % C
+
+% -----------------------
+% Assumed RF Constants
+% -----------------------
+rfRadialFreq = 2 * pi * 2e6; % 1/s
+rfDriveFreq = 2 * pi * 28e6; % 1/s
+
+% get fitted parameters
+load coeffs.mat
+fits.quadX = sum(fits.cpo_basis .* results.quadX);
+fits.quadY = sum(fits.cpo_basis .* results.quadY);
+fits.quadZ = sum(fits.cpo_basis .* results.quadZ);
+fits.linX = sum(fits.cpo_basis .* results.linX);
+fits.linY = sum(fits.cpo_basis .* results.linY);
+fits.linZ = sum(fits.cpo_basis .* results.linZ);
+
+% convert to freq
+fits.wX = sqrt(2 * chargeCalcium * fits.quadX * 1e12 / massCalcium);
+fits.wY = sqrt(2 * chargeCalcium * fits.quadY * 1e12 / massCalcium);
+fits.wZ = sqrt(2 * chargeCalcium * fits.quadZ * 1e12 / massCalcium);
+
+% print results
+disp('DC Trap Frequencies')
+if fits.quadX < 0
+    disp(sprintf('w_x = -2pi * %0.4g Hz', abs(fits.wX)/2/pi))
+else
+    disp(sprintf('w_x = 2pi * %0.4g Hz', abs(fits.wX)/2/pi))
+end
+if fits.quadY < 0
+    disp(sprintf('w_y = -2pi * %0.4g Hz', abs(fits.wY)/2/pi))
+else
+    disp(sprintf('w_y = 2pi * %0.4g Hz', abs(fits.wY)/2/pi))
+end
+if fits.quadZ < 0
+    disp(sprintf('w_z = -2pi * %0.4g Hz', abs(fits.wZ)/2/pi))
+else
+    disp(sprintf('w_z = 2pi * %0.4g Hz', abs(fits.wZ)/2/pi))
+end
+
+disp(' ')
+disp('DC Excess Fields')
+disp(sprintf('Ex = %0.4g V/um', fits.linX))
+disp(sprintf('Ey = %0.4g V/um', fits.linY))
+disp(sprintf('Ez = %0.4g V/um', fits.linZ))
+
+% get x, y centers inc. rf
+quadPP = 1/2 * massCalcium / chargeCalcium * rfRadialFreq ^2 * 1e-12;
+fits.x0 = -fits.linX / ( 2 * (fits.quadX + quadPP));
+fits.y0 = -fits.linY / ( 2 * (fits.quadY + quadPP));
+
+disp(' ')
+disp('Trap Center inc. RF @ 2 MHz Secular Freq')
+disp(sprintf('x_0 = %0.4g um', fits.x0))
+disp(sprintf('y_0 = %0.4g um', fits.y0))
+
+% Amplitude & Doppler Shift Due to Mircomotion
+quadRF =  massCalcium * rfRadialFreq * rfDriveFreq / (sqrt(2) * chargeCalcium) * 1e-12;
+fits.mmX = abs(fits.linX) / quadRF;
+fits.mmY = abs(fits.linY) / quadRF;
+
+disp(' ')
+disp('Amplitude of Micromotion')
+disp(sprintf('x_mm = %0.4g um', fits.mmX))
+disp(sprintf('y_mm = %0.4g um', fits.mmY))
+
+k397 = 2*pi / 397e-9;
+
+fits.dwX = k397 * fits.linX * rfDriveFreq / quadRF * 1e-6;
+fits.dwY = k397 * fits.linY * rfDriveFreq / quadRF * 1e-6;
+
+disp(' ')
+disp('Doppler Shift due to Micromotion @ 2 MHz RF Secular Freq')
+disp(sprintf('dw_x = 2pi * %0.4g Hz', fits.dwX/2/pi))
+disp(sprintf('dw_y = 2pi * %0.4g Hz', fits.dwY/2/pi))

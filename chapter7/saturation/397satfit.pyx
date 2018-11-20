@@ -1,0 +1,39 @@
+#set terminal X11_persist
+
+set terminal eps
+set output '397satfit_v5.eps'
+
+
+#set linestyle 1 points pointtype 1 colour red pointsize 1
+#set linestyle 2 lines linetype 1 colour blue linewidth 1.7
+#set linestyle 3 points pointtype 10 colour black pointsize 0.9
+#set linestyle 4 lines linetype 1 colour grey linewidth 1.7
+set linestyle 1 points pointtype 1 colour blue pointsize 1
+set linestyle 2 lines linetype 1 colour red linewidth 1.7
+set linestyle 3 points pointtype 10 colour black pointsize 0.9
+set linestyle 4 lines linetype 1 colour grey linewidth 1.7
+
+
+set fontsize 1
+set key top left
+
+
+#set size ratio 1
+set size 12
+
+set xlabel '397nm laser detuning (MHz)'
+set ylabel 'Fluorescence (counts/100ms)'
+#set x1tics 0,10,45
+#set mx1tics 0,5,45
+#set y1tics 0,200,1400
+#set my1tics 0,100,1400
+
+set arrow 1 from 20, 800 to 43,800
+set label 1 "Backg." at 20, 900 
+
+plot [-145:45][-500:3500] 'satu_fit_data.dat' t '' using 1:(0) with linestyle 4,\
+      'satu_fit_data.dat' t 'Fluorescence' using 1:2 with linestyle 3,\
+      'satu_fit_fit.dat' t 'Fit' using 1:2 with linestyle 2,\
+      'satu_fit_fit.dat' t 'Residuals' using 1:3 with linestyle 1
+
+

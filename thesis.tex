@@ -1,0 +1,198 @@
+%\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,11pt]{report}
+
+%%%%
+%  Todo:
+%	Glossary, bibliography (bibtex file), other files to include
+%	Custom commands
+%
+
+%\usepackage{times}    % naaah
+%\usepackage{pslatex}  % more packed, also quite good
+%\usepackage{newcent}  % very thick, quite good
+%\usepackage{palatino} % Not likey!
+
+%\usepackage{fancyhdr} % Fancy header - shoulc check documentation to use it
+
+%epstopdf to include things in PDF ...
+
+
+%\usepackage{graphics}
+\usepackage{graphicx}				%for figures
+\usepackage{makeidx} 				%for making indexes
+\usepackage{amsmath}
+%\usepackage[cols=2,number=none]{glossary}	%for glossary
+\usepackage{setspace}
+%\doublespacing
+\usepackage[colorlinks=true,
+pdfauthor={Gergely Imreh},
+pdfkeywords={ion traps,calcium,atomic physics,quantum computing}]{hyperref} 
+\usepackage{epigraph}
+
+\usepackage{listings}
+\newenvironment{mylisting}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item\scriptsize\bfseries}
+{\end{list}}
+\newenvironment{mytinylisting}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item\tiny\bfseries}
+{\end{list}}
+
+
+% \newcommand{\degree}{\ensuremath{^\circ}}  
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ben}{\begin{equation*}}
+\newcommand{\een}{\end{equation*}}
+%\newcommand{\soh}{S\ensuremath{_{\frac{1}{2}}} 	}
+%\newcommand{\poh}{P\ensuremath{_{\frac{1}{2}}} 	}
+%\newcommand{\pth}{P\ensuremath{_{\frac{3}{2}}} 	}
+%\newcommand{\dth}{D\ensuremath{_{\frac{3}{2}}} 	}
+%\newcommand{\dfh}{D\ensuremath{_{\frac{5}{2}}} 	}
+\newcommand{\soh}{S\ensuremath{_{1/2}}}
+\newcommand{\poh}{P\ensuremath{_{1/2}}}
+\newcommand{\pth}{P\ensuremath{_{3/2}}}
+\newcommand{\dth}{D\ensuremath{_{3/2}}}
+\newcommand{\dfh}{D\ensuremath{_{5/2}}}
+
+
+%%%% From Ben - warning, no space left for binding
+%\addtolength{\textwidth}{6em}
+%\addtolength{\textheight}{10ex}
+%\addtolength{\oddsidemargin}{-3em}
+%\addtolength{\evensidemargin}{-3em}
+%\addtolength{\rightmargin}{-3em}
+%\addtolength{\topmargin}{-10ex}
+%%%%%
+
+
+%%%% From Jonathan: standard sizes
+\textwidth150mm
+\oddsidemargin10mm
+\topmargin0mm
+\textheight230mm
+%%%%
+
+% Calcium definitions:
+\newcommand{\ion}[2]{\mbox{$^{#2}$#1$^+$}}
+\newcommand{\Ca}[1]{\ion{Ca}{#1}}
+\newcommand{\CaI}[1]{\mbox{$^{#1}$Ca}}
+\newcommand{\CaII}[1]{\ion{Ca}{#1}}
+\newcommand{\lev}[3]{\mbox{$^{#1}$#2$_{\mbox{\tiny$#3$}}$}}
+\newcommand{\hfslev}[3]{\mbox{#1$^{\mbox{\tiny$#3$}}_{\mbox{\tiny$#2$}}$}}
+%\newcommand{\kB}{\mbox{k$_B$}}
+\newcommand{\kB}{\mbox{{\it k}$_{\rm B}$}}
+
+% Unit definitions:
+\newcommand{\unit}[1]{\,\mbox{#1}}
+\newcommand{\Hz}{\unit{Hz}}
+\newcommand{\kHz}{\unit{kHz}}
+\newcommand{\MHz}{\unit{MHz}}
+\newcommand{\GHz}{\unit{GHz}}
+\newcommand{\THz}{\unit{THz}}
+%\newcommand{\torr}{\unit{torr}}
+\newcommand{\torr}{\unit{Torr}}
+\newcommand{\mV}{\unit{mV}}
+\newcommand{\W}{\unit{W}}
+\newcommand{\mW}{\unit{mW}}
+\newcommand{\uW}{\unit{$\mu$W}}
+\newcommand{\mrad}{\unit{mrad}}
+\newcommand{\mm}{\unit{mm}}
+\newcommand{\cm}{\unit{mm}}
+\newcommand{\um}{\unit{$\mu$m}}
+\newcommand{\nm}{\unit{nm}}
+\newcommand{\K}{\unit{K}}
+\newcommand{\s}{\unit{s}}
+\newcommand{\persec}{\unit{s$^{-1}$}}
+\newcommand{\ms}{\unit{ms}}
+\newcommand{\us}{\unit{$\mu$s}}
+\newcommand{\ns}{\unit{ns}}
+\newcommand{\uA}{\unit{$\mu$A}}
+\newcommand{\A}{\unit{A}}
+\newcommand{\mA}{\unit{mA}}
+\newcommand{\degree}{\mbox{$^{\circ}$}}
+\newcommand{\degC}{\mbox{\degree{}C}}
+\newcommand{\G}{\unit{G}}
+\newcommand{\mG}{\unit{mG}}
+\newcommand{\m}{\unit{m}}
+\newcommand{\Ohm}{\unit{$\Omega$}}
+\newcommand{\kOhm}{\unit{k$\Omega$}}
+\newcommand{\cversion}{(Colour in electronic version)}
+\newcommand{\V}{\unit{V}}
+\newcommand{\Vpp}{\unit{Vpp}}
+\newcommand{\mVpp}{\unit{mVpp}}
+\newcommand{\uF}{\unit{$\mu$F}}
+\newcommand{\mps}{\unit{m/s}}
+\newcommand{\mins}{\unit{mins}}
+
+\newcommand{\ltsim}{\protect\raisebox{-0.4ex}{$\,\stackrel{<}{\scriptstyle\sim}\,$}}
+\newcommand{\gtsim}{\protect\raisebox{-0.4ex}{$\,\stackrel{>}{\scriptstyle\sim}\,$}}
+
+
+\newcommand{\der}{\mbox{d}}
+
+
+
+\makeindex
+%\makeglossary
+\bibliographystyle{unsrt}
+
+%%%
+% Single spacing for preamble stuff
+%%%
+
+\begin{document}
+
+\pagenumbering{roman}		%page numbering for the things before the chapters
+
+\include{preamble/title}
+\include{preamble/abstract}
+\include{preamble/acknowledge}
+
+\tableofcontents
+\listoffigures			%maybe...
+% \listoftables			%maybe...
+
+%%% 
+% Double spacing for the main thesis text
+%%%
+\doublespacing
+
+%%%
+%  CHAPTERS
+%%%
+\newpage			%for correct page numbering
+\pagenumbering{arabic}		%back to the normal page numbering
+
+
+\include{chapter1/introduction}
+\include{chapter2/simulation}
+\include{chapter3/waveforms}
+\include{chapter4/apparatus}
+\include{chapter5/firstobs}
+\include{chapter6/sandia}
+\include{chapter7/heating}
+\include{chapter8/conclusion}
+
+%\printindex
+
+\singlespacing
+
+\appendix
+\include{appendices/voltages}
+
+
+%%% Single spacing for Bibliography and Index
+
+%\printindex
+%\printglossary
+
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{biblio/physics}
+
+
+\end{document}	
+
+

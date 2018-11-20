@@ -1,0 +1,473 @@
+                                                         Survival functions                        15:01 Monday, January 30, 2006  59
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 1: ovenoff = 0  tdep = 0
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                    0.00       1.0000           0           0        0          48
+                                   10.00       0.9792      0.0208      0.0206        1          47
+                                   20.00       0.9583      0.0417      0.0288        2          46
+                                   31.00            .           .           .        3          45
+                                   31.00       0.9167      0.0833      0.0399        4          44
+                                   50.00       0.8958      0.1042      0.0441        5          43
+                                   57.00       0.8750      0.1250      0.0477        6          42
+                                   58.00       0.8542      0.1458      0.0509        7          41
+                                   64.00       0.8333      0.1667      0.0538        8          40
+                                   91.00       0.8125      0.1875      0.0563        9          39
+                                   96.00       0.7917      0.2083      0.0586       10          38
+                                   97.00       0.7708      0.2292      0.0607       11          37
+                                  125.00       0.7500      0.2500      0.0625       12          36
+                                  146.00       0.7292      0.2708      0.0641       13          35
+                                  150.00            .           .           .       14          34
+                                  150.00       0.6875      0.3125      0.0669       15          33
+                                  166.00            .           .           .       16          32
+                                  166.00       0.6458      0.3542      0.0690       17          31
+                                  190.00       0.6250      0.3750      0.0699       18          30
+                                  203.00       0.6042      0.3958      0.0706       19          29
+                                  204.00       0.5833      0.4167      0.0712       20          28
+                                  222.00       0.5625      0.4375      0.0716       21          27
+                                  237.00       0.5417      0.4583      0.0719       22          26
+                                  243.00       0.5208      0.4792      0.0721       23          25
+                                  286.00       0.5000      0.5000      0.0722       24          24
+                                  293.00       0.4792      0.5208      0.0721       25          23
+                                  297.00       0.4583      0.5417      0.0719       26          22
+                                  301.00       0.4375      0.5625      0.0716       27          21
+                                  388.00       0.4167      0.5833      0.0712       28          20
+                                                         Survival functions                        15:01 Monday, January 30, 2006  60
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 1: ovenoff = 0  tdep = 0
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                  399.00       0.3958      0.6042      0.0706       29          19
+                                  406.00       0.3750      0.6250      0.0699       30          18
+                                  453.00       0.3542      0.6458      0.0690       31          17
+                                  500.00       0.3333      0.6667      0.0680       32          16
+                                  539.00            .           .           .       33          15
+                                  539.00       0.2917      0.7083      0.0656       34          14
+                                  564.00       0.2708      0.7292      0.0641       35          13
+                                  643.00       0.2500      0.7500      0.0625       36          12
+                                  661.00       0.2292      0.7708      0.0607       37          11
+                                  744.00       0.2083      0.7917      0.0586       38          10
+                                  798.00       0.1875      0.8125      0.0563       39           9
+                                  806.00            .           .           .       40           8
+                                  806.00       0.1458      0.8542      0.0509       41           7
+                                  812.00       0.1250      0.8750      0.0477       42           6
+                                  831.00       0.1042      0.8958      0.0441       43           5
+                                  908.00       0.0833      0.9167      0.0399       44           4
+                                 1045.00       0.0625      0.9375      0.0349       45           3
+                                 1319.00       0.0417      0.9583      0.0288       46           2
+                                 1429.00       0.0208      0.9792      0.0206       47           1
+                                 1903.00            0      1.0000           0       48           0
+                                                         Survival functions                        15:01 Monday, January 30, 2006  61
+
+                                                       The LIFETEST Procedure
+
+                                              Summary Statistics for Time Variable life
+
+                                                          Quartile Estimates
+
+                                                          Point     95% Confidence Interval
+                                             Percent    Estimate      [Lower      Upper)
+
+                                                  75      652.00      406.00      806.00
+                                                  50      289.50      190.00      453.00
+                                                  25      135.50       64.00      203.00
+
+
+                                                         Mean    Standard Error
+
+                                                       426.60             59.22
+                                                         Survival functions                        15:01 Monday, January 30, 2006  62
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 2: ovenoff = 0  tdep = 1
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                    0.00       1.0000           0           0        0          49
+                                   17.00       0.9796      0.0204      0.0202        1          48
+                                   30.00            .           .           .        2          47
+                                   30.00       0.9388      0.0612      0.0342        3          46
+                                   31.00       0.9184      0.0816      0.0391        4          45
+                                   35.00       0.8980      0.1020      0.0432        5          44
+                                   50.00       0.8776      0.1224      0.0468        6          43
+                                   52.00       0.8571      0.1429      0.0500        7          42
+                                   57.00       0.8367      0.1633      0.0528        8          41
+                                   64.00       0.8163      0.1837      0.0553        9          40
+                                   66.00       0.7959      0.2041      0.0576       10          39
+                                   68.00       0.7755      0.2245      0.0596       11          38
+                                   77.00       0.7551      0.2449      0.0614       12          37
+                                   78.00       0.7347      0.2653      0.0631       13          36
+                                   82.00       0.7143      0.2857      0.0645       14          35
+                                   88.00            .           .           .       15          34
+                                   88.00       0.6735      0.3265      0.0670       16          33
+                                   89.00       0.6531      0.3469      0.0680       17          32
+                                   94.00       0.6327      0.3673      0.0689       18          31
+                                  102.00       0.6122      0.3878      0.0696       19          30
+                                  112.00       0.5918      0.4082      0.0702       20          29
+                                  125.00       0.5714      0.4286      0.0707       21          28
+                                  129.00       0.5510      0.4490      0.0711       22          27
+                                  133.00       0.5306      0.4694      0.0713       23          26
+                                  136.00       0.5102      0.4898      0.0714       24          25
+                                  138.00       0.4898      0.5102      0.0714       25          24
+                                  150.00       0.4694      0.5306      0.0713       26          23
+                                  183.00       0.4490      0.5510      0.0711       27          22
+                                  193.00       0.4286      0.5714      0.0707       28          21
+                                                         Survival functions                        15:01 Monday, January 30, 2006  63
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 2: ovenoff = 0  tdep = 1
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                  214.00       0.4082      0.5918      0.0702       29          20
+                                  230.00       0.3878      0.6122      0.0696       30          19
+                                  236.00       0.3673      0.6327      0.0689       31          18
+                                  252.00       0.3469      0.6531      0.0680       32          17
+                                  263.00            .           .           .       33          16
+                                  263.00       0.3061      0.6939      0.0658       34          15
+                                  271.00       0.2857      0.7143      0.0645       35          14
+                                  305.00       0.2653      0.7347      0.0631       36          13
+                                  307.00       0.2449      0.7551      0.0614       37          12
+                                  310.00       0.2245      0.7755      0.0596       38          11
+                                  345.00       0.2041      0.7959      0.0576       39          10
+                                  371.00            .           .           .       40           9
+                                  371.00       0.1633      0.8367      0.0528       41           8
+                                  377.00       0.1429      0.8571      0.0500       42           7
+                                  393.00       0.1224      0.8776      0.0468       43           6
+                                  586.00       0.1020      0.8980      0.0432       44           5
+                                  611.00       0.0816      0.9184      0.0391       45           4
+                                  758.00       0.0612      0.9388      0.0342       46           3
+                                  763.00       0.0408      0.9592      0.0283       47           2
+                                  819.00       0.0204      0.9796      0.0202       48           1
+                                  872.00            0      1.0000           0       49           0
+                                                         Survival functions                        15:01 Monday, January 30, 2006  64
+
+                                                       The LIFETEST Procedure
+
+                                              Summary Statistics for Time Variable life
+
+                                                          Quartile Estimates
+
+                                                          Point     95% Confidence Interval
+                                             Percent    Estimate      [Lower      Upper)
+
+                                                  75      307.00      236.00      377.00
+                                                  50      138.00       94.00      252.00
+                                                  25       78.00       57.00      102.00
+
+
+                                                         Mean    Standard Error
+
+                                                       232.94             31.48
+                                                         Survival functions                        15:01 Monday, January 30, 2006  65
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 3: ovenoff = 1  tdep = 0
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                    0.00       1.0000           0           0        0          28
+                                   67.00       0.9643      0.0357      0.0351        1          27
+                                   73.00       0.9286      0.0714      0.0487        2          26
+                                  104.00       0.8929      0.1071      0.0585        3          25
+                                  108.00       0.8571      0.1429      0.0661        4          24
+                                  173.00       0.8214      0.1786      0.0724        5          23
+                                  212.00       0.7857      0.2143      0.0775        6          22
+                                  301.00       0.7500      0.2500      0.0818        7          21
+                                  344.00       0.7143      0.2857      0.0854        8          20
+                                  361.00       0.6786      0.3214      0.0883        9          19
+                                  399.00       0.6429      0.3571      0.0906       10          18
+                                  415.00       0.6071      0.3929      0.0923       11          17
+                                  448.00       0.5714      0.4286      0.0935       12          16
+                                  537.00       0.5357      0.4643      0.0942       13          15
+                                  579.00       0.5000      0.5000      0.0945       14          14
+                                  584.00       0.4643      0.5357      0.0942       15          13
+                                  624.00       0.4286      0.5714      0.0935       16          12
+                                  733.00       0.3929      0.6071      0.0923       17          11
+                                  835.00       0.3571      0.6429      0.0906       18          10
+                                  905.00       0.3214      0.6786      0.0883       19           9
+                                  937.00       0.2857      0.7143      0.0854       20           8
+                                  992.00       0.2500      0.7500      0.0818       21           7
+                                 1223.00       0.2143      0.7857      0.0775       22           6
+                                 1250.00       0.1786      0.8214      0.0724       23           5
+                                 1350.00       0.1429      0.8571      0.0661       24           4
+                                 1385.00       0.1071      0.8929      0.0585       25           3
+                                 1412.00       0.0714      0.9286      0.0487       26           2
+                                 1649.00       0.0357      0.9643      0.0351       27           1
+                                 2152.00            0      1.0000           0       28           0
+                                                         Survival functions                        15:01 Monday, January 30, 2006  66
+
+                                                       The LIFETEST Procedure
+
+                                              Summary Statistics for Time Variable life
+
+                                                          Quartile Estimates
+
+                                                          Point     95% Confidence Interval
+                                             Percent    Estimate      [Lower      Upper)
+
+                                                  75     1107.50      624.00     1385.00
+                                                  50      581.50      399.00      905.00
+                                                  25      322.50      108.00      537.00
+
+
+                                                         Mean    Standard Error
+
+                                                       719.71            102.14
+                                                         Survival functions                        15:01 Monday, January 30, 2006  67
+
+                                                       The LIFETEST Procedure
+
+                                                  Stratum 4: ovenoff = 1  tdep = 1
+
+                                                   Product-Limit Survival Estimates
+
+                                                                     Survival
+                                                                     Standard     Number      Number
+                                    life     Survival    Failure      Error       Failed       Left
+
+                                    0.00       1.0000           0           0        0          12
+                                   73.00       0.9167      0.0833      0.0798        1          11
+                                   82.00       0.8333      0.1667      0.1076        2          10
+                                  105.00       0.7500      0.2500      0.1250        3           9
+                                  167.00       0.6667      0.3333      0.1361        4           8
+                                  330.00       0.5833      0.4167      0.1423        5           7
+                                  351.00       0.5000      0.5000      0.1443        6           6
+                                  398.00       0.4167      0.5833      0.1423        7           5
+                                  493.00       0.3333      0.6667      0.1361        8           4
+                                  737.00       0.2500      0.7500      0.1250        9           3
+                                  759.00       0.1667      0.8333      0.1076       10           2
+                                 1130.00       0.0833      0.9167      0.0798       11           1
+                                 1661.00            0      1.0000           0       12           0
+
+
+                                              Summary Statistics for Time Variable life
+
+                                                          Quartile Estimates
+
+                                                          Point     95% Confidence Interval
+                                             Percent    Estimate      [Lower      Upper)
+
+                                                  75      748.00      351.00     1130.00
+                                                  50      374.50      167.00      737.00
+                                                  25      136.00       82.00      398.00
+
+
+                                                         Survival functions                        15:01 Monday, January 30, 2006  68
+
+                                                       The LIFETEST Procedure
+
+                                                         Mean    Standard Error
+
+                                                       523.83            138.90
+
+
+                                       Summary of the Number of Censored and Uncensored Values
+
+                                                                                                     Percent
+                         Stratum         ovenoff            tdep       Total  Failed    Censored    Censored
+
+                               1               0               0          48      48           0        0.00
+                               2               0               1          49      49           0        0.00
+                               3               1               0          28      28           0        0.00
+                               4               1               1          12      12           0        0.00
+                         -----------------------------------------------------------------------------------
+                           Total                                         137     137           0        0.00
+                                                         Survival functions                        15:01 Monday, January 30, 2006  69
+
+                                                       The LIFETEST Procedure
+
+                                     Testing Homogeneity of Survival Curves for life over Strata
+
+
+                                                           Rank Statistics
+
+                                                   Stratum    Log-Rank    Wilcoxon
+
+                                                         1      -0.099      -114.0
+                                                         2      21.347      1777.0
+                                                         3     -18.610     -1415.0
+                                                         4      -2.637      -248.0
+
+
+                                            Covariance Matrix for the Log-Rank Statistics
+
+                                   Stratum             1             2             3             4
+
+                                   1             30.8015       -9.8497      -15.8490       -5.1027
+                                   2             -9.8497       20.2936       -7.6771       -2.7668
+                                   3            -15.8490       -7.6771       28.5471       -5.0210
+                                   4             -5.1027       -2.7668       -5.0210       12.8906
+
+
+                                            Covariance Matrix for the Wilcoxon Statistics
+
+                                   Stratum             1             2             3             4
+
+                                   1              198232        -89492        -78591        -30148
+                                   2              -89492        175808        -61843        -24473
+                                   3              -78591        -61843        162326        -21892
+                                   4              -30148        -24473        -21892         76513
+
+
+                                                         Survival functions                        15:01 Monday, January 30, 2006  70
+
+                                                       The LIFETEST Procedure
+
+                                                          Legend for Strata
+
+                                               Stratum         ovenoff            tdep
+
+                                                     1               0               0
+                                                     2               0               1
+                                                     3               1               0
+                                                     4               1               1
+
+
+                                                    Test of Equality over Strata
+
+                                                                                Pr >
+                                             Test      Chi-Square      DF    Chi-Square
+
+                                             Log-Rank     27.2274       3      <.0001
+                                             Wilcoxon     22.8451       3      <.0001
+                                             -2Log(LR)    24.5392       3      <.0001
+                                                               Lifereg                             15:01 Monday, January 30, 2006  71
+
+                                                        The LIFEREG Procedure
+
+                                                         Model Information
+
+                                              Data Set                       WORK.IONS
+                                              Dependent Variable             Log(life)
+                                              Number of Observations               137
+                                              Noncensored Values                   137
+                                              Right Censored Values                  0
+                                              Left Censored Values                   0
+                                              Interval Censored Values               0
+                                              Name of Distribution             Weibull
+                                              Log Likelihood              -197.2692253
+
+
+                                               Number of Observations Read         137
+                                               Number of Observations Used         137
+
+
+                             Algorithm converged.
+
+
+                                                    Type III Analysis of Effects
+
+                                                                      Wald
+                                             Effect       DF    Chi-Square    Pr > ChiSq
+
+                                             ovenoff       1       13.5541        0.0002
+                                             tdep          1       11.8246        0.0006
+
+
+                                                   Analysis of Parameter Estimates
+
+                                                         Standard   95% Confidence     Chi-
+                               Parameter     DF Estimate    Error       Limits       Square Pr > ChiSq
+
+                               Intercept      1   6.0660   0.1198   5.8312   6.3009 2562.77     <.0001
+                               ovenoff        1   0.6186   0.1680   0.2893   0.9479   13.55     0.0002
+                               tdep           1  -0.5282   0.1536  -0.8293  -0.2271   11.82     0.0006
+                                                               Lifereg                             15:01 Monday, January 30, 2006  72
+
+                                                        The LIFEREG Procedure
+
+                                                   Analysis of Parameter Estimates
+
+                                                         Standard   95% Confidence     Chi-
+                               Parameter     DF Estimate    Error       Limits       Square Pr > ChiSq
+
+                               Scale          1   0.8874   0.0586   0.7796   1.0101
+                               Weibull Shape  1   1.1269   0.0745   0.9900   1.2827
+                                                        Proportional hazards                       15:01 Monday, January 30, 2006  73
+
+                                                         The PHREG Procedure
+
+                                                         Model Information
+
+                                                 Data Set                 WORK.IONS
+                                                 Dependent Variable       life
+                                                 Ties Handling            BRESLOW
+
+
+                                               Number of Observations Read         137
+                                               Number of Observations Used         137
+
+
+                                         Summary of the Number of Event and Censored Values
+
+                                                                                 Percent
+                                               Total       Event    Censored    Censored
+
+                                                 137         137           0        0.00
+
+
+                                                         Convergence Status
+
+                                           Convergence criterion (GCONV=1E-8) satisfied.
+
+
+                                                        Model Fit Statistics
+
+                                                                Without           With
+                                               Criterion     Covariates     Covariates
+
+                                               -2 LOG L        1081.374       1056.296
+                                               AIC             1081.374       1060.296
+                                               SBC             1081.374       1066.136
+
+
+                                                        Proportional hazards                       15:01 Monday, January 30, 2006  74
+
+                                                         The PHREG Procedure
+
+                                               Testing Global Null Hypothesis: BETA=0
+
+                                       Test                 Chi-Square       DF     Pr > ChiSq
+
+                                       Likelihood Ratio        25.0782        2         <.0001
+                                       Score                   24.7669        2         <.0001
+                                       Wald                    23.7977        2         <.0001
+
+
+                                              Analysis of Maximum Likelihood Estimates
+
+                                Parameter      Standard                                  Hazard      95% Hazard Ratio
+             Variable    DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits
+
+             ovenoff      1      -0.69181       0.19779       12.2339        0.0005       0.501       0.340       0.738
+             tdep         1       0.57898       0.17981       10.3685        0.0013       1.784       1.254       2.538

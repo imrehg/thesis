@@ -1,0 +1,6 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Experimental lifetimes of ions, for different \unhbox \voidb@x \hbox {$^{}$Ca} oven currents. Description of the different experiments is in the text.}}{16}{table.6.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces List of parameters in the fit of the recorded fluorescence spectra. Parameters noted as ``constant'' are set the same for all different spectra. ``Joint'' fit parameters are fitted as single variable for all spectra. ``Individual'' fit parameters are fitted separately for every spectra. Fitted parameter values shown for ``Joint'' fit. Background counts are measured for every scan. The unit of 397\,\unhbox \voidb@x \hbox {nm}\, laser intensity is $I_{\unhbox \voidb@x \hbox {sat}} / bg$ = ``397\,\unhbox \voidb@x \hbox {nm}\, saturation intensity / background count over dark counts in 100\,\unhbox \voidb@x \hbox {ms}\, measurement''. The unit of 866nm laser intensity is saturation intensities on its transition. }}{26}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Laser power of the 397\,\unhbox \voidb@x \hbox {nm}\, beam measured at different positions.}}{27}{table.7.2}

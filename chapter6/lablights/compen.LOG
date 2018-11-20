@@ -1,0 +1,97 @@
+% File compen.LOG
+% Log file created on 160807 at 15:32:46 by QC04
+% Parameter values at start:
+       1024    N = number of bins per scan (max: 4096)
+        250    M = number of scans for timed sequence experiment
+         10    number of DAC scans per screen
+          0    DAC scan sense: 0=normal; 1=alternate between each subscan
+         10    number of scans per screen for FieldCompensation
+         10    number of 10ms triggers per bin - standard
+         10    number of 10ms triggers per bin - DACscan
+         10    number of 10ms triggers per bin - FieldComp
+       1000    bin length (1000 <= t <= 65535 us) - QuickScan
+          0    AC line trigger for shelving sequence (0/1=off/on)
+          0    repeat failed sequences in shelving experiment (0/1=off/on)
+          0    1=two ions (failure threshold=QJthresh1; plot S1 signal)
+    2046280    synth1 centre frequency (Hz/100)
+      10000    synth1 frequency offset calibration (Hz/mV)*10
+       -700    start of exclusion zone for s1freq DAC / mV
+        700    end of exclusion zone for s1freq DAC / mV
+   32215800    synth5 centre frequency (Hz/100)
+      10000    synth5 frequency offset calibration (Hz/mV)*10
+      -1000    etalon photodiode voltage at peak / mV
+       3600    oven burn time / s
+       3600    PI-laser burn time / s
+        300    delay time between oven start and PI-laser start / s
+          0    no.bins for PI lasers ON period (in MultiScan)
+         10    no.bins for PI lasers OFF period (in MultiScan)
+        550    QJthresh count threshold for QJ (at standard timing)
+       4000    QJthresh1 for 1-ion only shelved (at standard timing)
+       5000    QJ barrier time before scan end / ms
+         10    number of RF histogram updates before pausing (0=no pause)
+         20    number of bins for running average
+       5000    count (B+/-A) scale (10...75000; negative=OFF)
+      -2500    count (B+/-A) average scale (10...75000; negative=OFF)
+      10000    count A scale (10...75000; negative=OFF)
+      10000    count B scale (10...75000; negative=OFF)
+      -2500    etalon/mV scale (10...75000; negative=OFF)
+      -2500    bluePD/mV scale (10...75000; negative=OFF)
+       2500    redPD/mV scale (10...75000; negative=OFF)
+      -5000    iongauge/mV scale (10...75000; negative=OFF)
+     -10000    B-field monitors BxByBz/mV scale (10...75000; negative=OFF)
+        680    Death Valley all-time high score
+% DAC values (mV) at start:
+         94    866freq 
+       -550    397freq 
+       9412    ticklfrq
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+          0    dummy   
+15:35:05 Starting RF compensation scans:
+    time  DAC1mV DAC2mV DAC3mV DAC4mV  #hist#sample   mean(Y)     sd(Y)   fom%   LSF amp time/cs
+15:35:06    9412   9412   9412   9412      3  10000    180.22     44.93   24.9    -14.77     176
+15:35:34 Starting RF compensation scans:
+    time  DAC1mV DAC2mV DAC3mV DAC4mV  #hist#sample   mean(Y)     sd(Y)   fom%   LSF amp time/cs
+15:35:35    9412   9412   9412   9412      3  10000    180.17     46.47   25.8    -18.40     137
+15:35:47    9412   9412   9412   9412      4  10000    241.37     24.43   10.1     -5.86     187
+15:40:25 Saved data file C:\DATA\160807\compen.000
+% Compensation experiment, looking at the ion, 397 scan: 10 scans, light turned on in 2., off in 4., on in 6., off in 8th.... Very notable difference. Very wide range scan.
+% Scan started 15:35:52, ended 15:37:38
+% trigperiod=10000us; T=10 trigs/bin; tperbin=100.000ms
+% bin,DAC/mV,countA,countB,etalon/mV,freq/MHz,bluePD/mV,redPD/mV,DAClevel
+% etalonmax = -1000 mV
+% DAC 1 (397freq ) scan range:  -1046mV to   -420mV
+% Parameter values for this run:
+        1024         250          10           0          10          10
+          10          10        1000           0           0           0
+     2046280       10000        -700         700    32215800       10000
+       -1000        3600        3600         300           0          10
+         550        4000        5000          10          20        5000
+       -2500       10000       10000       -2500       -2500        2500
+       -5000      -10000         680
+% DAC values (mV) at end of run (NB: could have been adjusted during run):
+          94        -521        9412           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0
+15:44:00 Starting RF compensation scans:
+    time  DAC1mV DAC2mV DAC3mV DAC4mV  #hist#sample   mean(Y)     sd(Y)   fom%   LSF amp time/cs
+15:44:06    9412   9412   9412   9412      3  10000    180.80     16.91    9.4     -0.57     653
+15:46:47 Starting RF compensation scans:
+    time  DAC1mV DAC2mV DAC3mV DAC4mV  #hist#sample   mean(Y)     sd(Y)   fom%   LSF amp time/cs
+15:46:49    9412   9412   9412   9412      3  10000    180.84     22.59   12.5     -7.75     148
+15:46:58    9412   9412   9412   9412      3  10000    180.87     22.17   12.3      0.43     148

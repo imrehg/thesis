@@ -1,0 +1,82 @@
+\chapter{Codes}
+\label{app:voltagecalc}
+
+text?
+\section{No1}
+\verbatim{
+function vout = voltprepare(elecs,params,backg,pots,f,x0)
+% vout = voltprepare(elecs,params,backg,pots,f,x)
+% 
+% Input:
+% ------
+% elecs : electrode #s, for which the voltages have to be calculated
+% params : [w0 m a0 q] to describe the system and the trapping strength one 
+%        wants to achieve
+% backg : [num1 volt1; num2 volt2;...] electrode numbers and voltage values for
+%        those electrodes which have a constant set value
+% pots : the database for the polinomials describing the potentials
+% f  :  force on the ion
+% x0  :  position of ion
+% 
+% Output:
+% -------
+% vout : list of voltages for electrodes in 'elecs', to fullfill the set
+%       requirements
+%     
+
+
+%Getting parameters for system
+w0 = params(1);
+m = params(2);
+a0 = params(3);
+q = params(4);
+
+%number of electrodes changed and static background electrodes
+n = length(elecs);
+bn = size(backg);
+bl = bn(1);
+
+%Distance conversion from dimensionless
+x = x0*2*a0;
+
+%Setting up the coefficient matrix for the equations
+%Dimensionless form
+A = zeros(n);
+for i = 1:n
+    for j = 1:n
+        enum = elecs(j);
+        v = pots(enum,:);
+        for k = 1:i
+            v = derivate(v);
+        end
+        A(i,j) = polyval(v,x);       
+    end
+    A(i,:) = A(i,:)*(q/(2*a0*m*w0^2))*(2*a0)^(i-1);
+end
+
+%Setting up the other part of the equation system
+%Background values
+b = zeros(n,1);
+if bl > 0
+    for i = 1:n
+        
+          for j = 1:bl
+            enum = backg(j,1);
+            v = pots(enum,:);
+            for k = 1:i
+                v = derivate(v);
+            end
+            b(i) = b(i)-backg(j,2)*polyval(v,x);
+          end
+          b(i) = b(i)*(q/(2*a0*m*w0^2))*(2*a0)^(i-1);
+    end
+end
+%Required values
+b(1) = b(1) + f;
+b(2) = b(2) - 1;
+
+%Solving equation system and returning the solution
+al = 0.0002;  % small constant to avoid singularity
+
+vout = inv(A.' * A  + al^2*eye(n)) * A.' * b;
+}

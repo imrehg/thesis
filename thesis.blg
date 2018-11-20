@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.5)
+The top-level auxiliary file: thesis.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: preamble/title.aux
+A level-1 auxiliary file: preamble/abstract.aux
+A level-1 auxiliary file: preamble/acknowledge.aux
+A level-1 auxiliary file: chapter1/introduction.aux
+A level-1 auxiliary file: chapter2/simulation.aux
+A level-1 auxiliary file: chapter3/waveforms.aux
+A level-1 auxiliary file: chapter4/apparatus.aux
+A level-1 auxiliary file: chapter5/firstobs.aux
+A level-1 auxiliary file: chapter6/sandia.aux
+A level-1 auxiliary file: chapter7/heating.aux
+A level-1 auxiliary file: chapter8/conclusion.aux
+A level-1 auxiliary file: appendices/voltages.aux
+Database file #1: biblio/physics.bib
+Warning--empty year in Home2009
+Warning--empty note in Steane2008
+You've used 69 entries,
+            1791 wiz_defined-function locations,
+            895 strings with 16804 characters,
+and the built_in function-call counts, 17836 in all, are:
+= -- 1354
+> -- 1311
+< -- 0
++ -- 466
+- -- 397
+* -- 1550
+:= -- 3122
+add.period$ -- 208
+call.type$ -- 69
+change.case$ -- 62
+chr.to.int$ -- 0
+cite$ -- 71
+duplicate$ -- 588
+empty$ -- 1466
+format.name$ -- 397
+if$ -- 3670
+int.to.chr$ -- 0
+int.to.str$ -- 69
+missing$ -- 62
+newline$ -- 348
+num.names$ -- 69
+pop$ -- 124
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 1185
+swap$ -- 68
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 151
+width$ -- 71
+write$ -- 750
+(There were 2 warnings)

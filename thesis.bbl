@@ -1,0 +1,414 @@
+\begin{thebibliography}{10}
+
+\bibitem{Feynman1982}
+R.~P. Feynman.
+\newblock Simulating physics with computers.
+\newblock {\em Int. J. Theor. Phys.}, 21:467--488, 1982.
+
+\bibitem{Feynman1986}
+R.~P. Feynman.
+\newblock Quantum mechanical computers.
+\newblock {\em Found. Phys.}, 16:507--531, 1986.
+
+\bibitem{Deutsch1989}
+D.~Deutsch.
+\newblock Quantum computational networks.
+\newblock {\em Proc. Roy. Soc. A}, 425(1868):73--90, 1989.
+
+\bibitem{Barenco1995}
+Adriano Barenco, Charles~H. Bennett, Richard Cleve, David~P. DiVincenzo, Norman
+  Margolus, Peter Shor, Tycho Sleator, John~A. Smolin, and Harald Weinfurter.
+\newblock Elementary gates for quantum computation.
+\newblock {\em Phys. Rev. A}, 52(5):3457--3467, November 1995.
+
+\bibitem{Sleator1995}
+Tycho Sleator and Harald Weinfurter.
+\newblock Realizable universal quantum logic gates.
+\newblock {\em Phys. Rev. Lett.}, 74(20):4087--4090, May 1995.
+
+\bibitem{Shor1994}
+P.~W. Shor.
+\newblock Algorithms for quantum computation: Discrete logarithms and
+  factoring.
+\newblock {\em Proc. 35th Annual Symposium of Foundations of Computer Science},
+  1994.
+
+\bibitem{Grover1997}
+Lov~K. Grover.
+\newblock Quantum mechanics helps in searching for a needle in a haystack.
+\newblock {\em Phys. Rev. Lett.}, 79(2):325--328, Jul 1997.
+
+\bibitem{Nielson2000}
+M.A. Nielson and I.L. Chuang.
+\newblock {\em Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem{Knill2001}
+E.~Knill, R.~Laflamme, and G.~J. Milburn.
+\newblock A scheme for efficient quantum computation with linear optics.
+\newblock {\em Nature}, 409:46--52, 2001.
+
+\bibitem{You2005}
+J.~Q. You and Franco Nori.
+\newblock Superconducting circuits and quantum information.
+\newblock {\em Physics Today}, 58(11):42--47, November 2005.
+
+\bibitem{Engel2004}
+Hans-Andreas Engel, L.~P. Kouwenhoven, Daniel Loss, and C.~M. Marcus.
+\newblock Controlling spin qubits in quantum dots.
+\newblock {\em Quantum Information Processing}, 3:115--132, 2004.
+
+\bibitem{Briegel2000}
+H.-J. Briegel, T.~Calarco, D.~Jaksch, J.I. Cirac, and P.~Zoller.
+\newblock Quantum computing with neutral atoms.
+\newblock {\em Journal of Modern Optics}, 47:415--451, 2000.
+
+\bibitem{Deutsch2000}
+Ivan~H. Deutsch, Gavin~K. Brennen, and Poul~S. Jessen.
+\newblock Quantum computing with neutral atoms in an optical lattice.
+\newblock {\em Fortschritte der Physik}, 48:925--943, 2000.
+
+\bibitem{Cirac1995}
+J.~I. Cirac and P.~Zoller.
+\newblock Quantum computations with cold trapped ions.
+\newblock {\em Phys. Rev. Lett.}, 74(20):4091--4094, May 1995.
+
+\bibitem{Cirac2000}
+J.~I. Cirac and P.~Zoller.
+\newblock A scalable quantum computer with ions in an array of microtraps.
+\newblock {\em Nature}, 404:579--581, 2000.
+
+\bibitem{Monroe1995}
+C.~Monroe, D.~M. Meekhof, B.~E. King, S.~R. Jefferts, W.~M. Itano, D.~J.
+  Wineland, and P.~Gould.
+\newblock Resolved-sideband raman cooling of a bound atom to the 3d zero-point
+  energy.
+\newblock {\em Phys. Rev. Lett.}, 75(22):4011--4014, Nov 1995.
+
+\bibitem{Schmidt-Kaler2003}
+F.~Schmidt-Kaler, S.~Gulde, M.~Riebe, T.~Deuschle, A.~Kreuter, G.~Lancaster,
+  C.~Becher, J.~Eschner, H.~Häffner, and R.~Blatt.
+\newblock The coherence of qubits based on single ca+ ions.
+\newblock {\em J. Phys. B: At. Mol. Opt. Phys.}, 36:623--636, 2003.
+
+\bibitem{Sackett2000}
+C.~A. Sackett, D.~Kielpinski, B.~E. King, C.~Langer, V.~Meyer, C.~J. Myatt,
+  M.~Rowe, Q.~A. Turchette, W.~M. Itano, D.~J. Wineland, and C.~Monroe.
+\newblock Experimental entanglement of four particles.
+\newblock {\em Nature}, 404:256--259, 2000.
+
+\bibitem{Leibfried2003a}
+D.~Leibfried, B.~DeMarco, V.~Meyer, D.~Lucas, M.~Barrett, J.~Britton, W.~M.
+  Itano, B.~Jelenkovic, C.~Langer, T.~Rosenband, and D.~J. Wineland.
+\newblock Experimental demonstration of a robust, high-fidelity geometric two
+  ion-qubit phase gate.
+\newblock {\em Nature}, 422:412--415, 2003.
+
+\bibitem{Chiaverini2004}
+J.~Chiaverini, D.~Leibfried, T.~Schaetz, M.~D. Barrett, R.~B. Blakestad,
+  J.~Britton, W.~M. Itano, J.~D. Jost, E.~Knill, C.~Langer, R.~Ozeri, and D.~J.
+  Wineland.
+\newblock Realization of quantum error correction.
+\newblock {\em Nature}, 432:602--605, 2004.
+
+\bibitem{Riebe2004}
+M.~Riebe, H.~Häffner, C.~F. Roos, W.~Hänsel, J.~Benhelm, G.~P.~T. Lancaster,
+  T.~W. Körber, C.~Becher, F.~Schmidt-Kaler, D.~F.~V. James, and R.~Blatt.
+\newblock Deterministic quantum teleportation with atoms.
+\newblock {\em Nature}, 429:734--737, 2004.
+
+\bibitem{Leibfried2005}
+D.~Leibfried, E.~Knill, S.~Seidelin, J.~Britton, R.~B. Blakestad,
+  J.~Chiaverini, D.~B. Hume, W.~M. Itano, J.~D. Jost, C.~Langer, R.~Ozeri,
+  R.~Reichle, and D.~J. Wineland.
+\newblock Creation of a six-atom 'schr\"odinger cat' state.
+\newblock {\em Nature}, 438:639--642, 2005.
+
+\bibitem{Haeffner2005}
+H.~Häffner, W.~Hänsel, C.~F. Roos, J.~Benhelm, D.~Chek al~kar, M.~Chwalla,
+  T.~Körber, U.~D. Rapol, M.~Riebe, P.~O. Schmidt, C.~Becher, O.~Gühne,
+  W.~Dür, , and R.~Blatt.
+\newblock Scalable multiparticle entanglement of trapped ions.
+\newblock {\em Nature}, 438:643--646, 2005.
+
+\bibitem{Blinov2004}
+B.~B. Blinov, D.~L. Moehring, L.-M. Duan, and C.~Monroe.
+\newblock Observation of entanglement between a single trapped atom and a
+  single photon.
+\newblock {\em Nature}, 428:153--157, 2004.
+
+\bibitem{Gulde2003}
+Stephan Gulde, Mark Riebe, Gavin P.~T. Lancaster, Christoph Becher, Jürgen
+  Eschner, Hartmut Häffner, Ferdinand Schmidt-Kaler, Isaac~L. Chuang, and
+  Rainer Blatt.
+\newblock Implementation of the deutsch–jozsa algorithm on an ion-trap
+  quantum computer.
+\newblock {\em Nature}, 421:48--50, 2003.
+
+\bibitem{Brickman2005}
+K.-A. Brickman, P.~C. Haljan, P.~J. Lee, M.~Acton, L.~Deslauriers, and
+  C.~Monroe.
+\newblock Implementation of grover's quantum search algorithm in a scalable
+  system.
+\newblock {\em Phys. Rev. A}, 72:050306, 2005.
+
+\bibitem{Chiaverini2005}
+J.~Chiaverini, J.~Britton, D.~Leibfried, E.~Knill, M.~D. Barrett, R.~B.
+  Blakestad, W.~M. Itano, J.~D. Jost, C.~Langer, R.~Ozeri, T.~Schaetz, and
+  D.~J. Wineland.
+\newblock Implementation of the semiclassical quantum fourier transform in a
+  scalable system.
+\newblock {\em Science}, 308(5724):997--1000, 2005.
+
+\bibitem{Steane1997}
+A.~Steane.
+\newblock The ion trap quantum information processor.
+\newblock {\em Appl.Phys. B}, 64:623, 1997.
+
+\bibitem{Ozeri2007}
+R.~Ozeri, W.~M. Itano, R.~B. Blakestad, J.~Britton, J.~Chiaverini, J.~D. Jost,
+  C.~Langer, D.~Leibfried, R.~Reichle, S.~Seidelin, J.~H. Wesenberg, and D.~J.
+  Wineland.
+\newblock Errors in trapped-ion quantum gates due to spontaneous photon
+  scattering.
+\newblock {\em Phys. Rev. A}, 75:042329, 2007.
+
+\bibitem{McDonnell2007}
+M.~J. McDonnell, J.~P. Home, D.~M. Lucas, G.~Imreh, B.~C. Keitch, D.~J. Szwer,
+  N.~R. Thomas, S.~C. Webster, D.~N. Stacey, and A.~M. Steane.
+\newblock Long-lived mesoscopic entanglement outside the lamb-dicke regime.
+\newblock {\em Physical Review Letters}, 98(6):063603, February 2007.
+
+\bibitem{Home2006}
+J.~P. Home, M.~J. McDonnell, D.~M. Lucas, G.~Imreh, B.~C. Keitch, D.~J. Szwer,
+  N.~R. Thomas, S.~C. Webster, D.~N. Stacey, and A.~M. Steane.
+\newblock Deterministic entanglement and tomography of ion-spin qubits.
+\newblock {\em New Journal of Physics}, 8:188, September 2006.
+
+\bibitem{Lucas2007}
+D.~M. Lucas, B.~C. Keitch, J.~P. Home, G.~Imreh, M.~J. McDonnell, D.~N. Stacey,
+  D.~J. Szwer, and A.~M. Steane.
+\newblock A long-lived memory qubit on a low-decoherence quantum bus.
+\newblock {\em Pre-print}, arXiv:0710.4421, October 2007.
+
+\bibitem{Myerson2008}
+A.~H. Myerson, D.~J. Szwer, S.~C. Webster, D.~T.~C. Allcock, M.~J. Curtis,
+  G.~Imreh, J.~A. Sherman, D.~N. Stacey, A.~M. Steane, and D.~M. Lucas.
+\newblock High-fidelity readout of trapped-ion qubits.
+\newblock {\em Physical Review Letters}, 100(20):200502, 2008.
+
+\bibitem{Home2009}
+J.~P. Home, M.~J. McDonnell, B.~C. Keitch, D.~J. Szwer, D.~Lucas, D.~N. Stacey,
+  and A.~M. Steane.
+\newblock Memory coherence of a sympatherically cooled trapped-ion qubit.
+\newblock {\em (in preparation)}.
+
+\bibitem{Seidelin2006}
+S.~Seidelin, J.~Chiaverini, R.~Reichle, J.~J. Bollinger, D.~Leibfried,
+  J.~Britton, J.~H. Wesenberg, R.~B. Blakestad, R.~J. Epstein, D.~B. Hume,
+  W.~M. Itano, J.~D. Jost, C.~Langer, R.~Ozeri, N.~Shiga, and D.~J. Wineland.
+\newblock Microfabricated surface-electrode ion trap for scalable quantum
+  information processing.
+\newblock {\em Physical Review Letters}, 96:253003, 2006.
+
+\bibitem{Stick2006}
+D.~Stick, W.~K. Hensinger, S.~Olmschenk, M.~J. Madsen, K.~Schwab, and
+  C.~Monroe.
+\newblock Ion trap in a semiconductor chip.
+\newblock {\em Nature Physics}, 2:36--39, 2006.
+
+\bibitem{Hensinger2006}
+W.~K. Hensinger, S.~Olmschenk, D.~Stick, D.~Hucul, M.~Yeo, M.~Acton,
+  L.~Deslauriers, C.~Monroe, and J.~Rabchuk.
+\newblock T-junction ion trap array for two-dimensional ion shuttling, storage,
+  and manipulation.
+\newblock {\em Applied Physics Letters}, 88(3):034101, 2006.
+
+\bibitem{Huber2008}
+G~Huber, T~Deuschle, W~Schnitzler, R~Reichle, K~Singer, and F~Schmidt-Kaler.
+\newblock Transport of ions in a segmented linear paul trap in
+  printed-circuit-board technology.
+\newblock {\em New Journal of Physics}, 10(1):013004, 2008.
+
+\bibitem{Barton2000}
+P.~A. Barton, C.~J.~S. Donald, D.~M. Lucas, D.~A. Stevens, A.~M. Steane, and
+  D.~N. Stacey.
+\newblock Measurement of the lifetime of the 3d2{D}5/2 state in 40{C}a+.
+\newblock {\em Phys. Rev. A}, 62(3):032503, Aug 2000.
+
+\bibitem{Home2006a}
+J.~P. Home and A.~M. Steane.
+\newblock Electrode configurations for fast separation of trapped ions.
+\newblock {\em Quantum Information and Computation}, 6:289--325, 2006.
+
+\bibitem{Lucas2004}
+D.~M. Lucas, A.~Ramos, J.~P. Home, M.~J. McDonnell, S.~Nakayama, J.-P. Stacey,
+  S.~C. Webster, D.~N. Stacey, and A.~M. Steane.
+\newblock Isotope-selective photoionization for calcium ion trapping.
+\newblock {\em Physical Review A (Atomic, Molecular, and Optical Physics)},
+  69(1):012711, 2004.
+
+\bibitem{Reichle2006}
+R.~Reichle, D.~Leibfried, R.B. Blakestad, J.~Britton, J.D. Jost, E.~Knill,
+  C.~Langer, R.~Ozeri, S.~Seidelin, and D.J. Wineland.
+\newblock Transport dynamics of single ions in segmented microstructured paul
+  trap arrays.
+\newblock {\em Fortschritte der Physik}, 54:666--685, 2006.
+
+\bibitem{Hucul2008}
+D.~Hucul, M.~Yeo, W.~K. Hensinger, J.~Rabchuk, S.~Olmschenk, and C.~Monroe.
+\newblock On the transport of atomic ions in linear and multidimensional ion
+  trap arrays.
+\newblock {\em Pre-print}, arXiv:quant--ph/0702175v3, 2008.
+
+\bibitem{Rowe2002}
+M.~A. Rowe, A.~Ben-Kish, B.~DeMarco, D.~Leibfried, V.~Meyer, J.~Beall,
+  J.~Britton, J.~Hughes, W.~M. Itano, B.~Jelenkovic, C.~Langer, T.~Rosenband,
+  and D.~J. Wineland.
+\newblock Transport of quantum states and separation of ions in a dual rf ion
+  trap.
+\newblock {\em Quantum Information and Computation}, 2:257--271, 2002.
+
+\bibitem{Curtis2007}
+M.~J. Curtis.
+\newblock Micro-scale segmented ion traps.
+\newblock First Year Report, University of Oxford, August 2007.
+
+\bibitem{Keitch2007}
+B.~C. Keitch.
+\newblock {\em A Quantum Memory Qubit in Calcium-43}.
+\newblock PhD thesis, University of Oxford, 2007.
+
+\bibitem{Drever1983}
+R.~W.~P. Drever, J.~L. Hall, F.~V. Kowalski, J.~Hough, G.~M. Ford, A.~J.
+  Munley, and H.~Ward.
+\newblock Laser phase and frequency stabilization using an optical resonator.
+\newblock {\em Appl.Phys. B}, 31:97--105, 1983.
+
+\bibitem{Allcock2006}
+David Allcock.
+\newblock A multi-channel laser diagnostic system for trapped-ion quantum
+  computing experiments.
+\newblock MSc Project Report, University of Oxford, 2007.
+
+\bibitem{Myerson2007}
+A.~Myerson.
+\newblock High precision qubit readout and microfabricated ion traps for
+  quantum information processing.
+\newblock First Year Report, University of Oxford, August 2007.
+
+\bibitem{McAlpine1959}
+W.~W. McAlpine and R.~O. Schildknecht.
+\newblock Coaxial resonators with helical inner conductor.
+\newblock {\em Proc. Int. Radio. Eng.}, 47:2099--2105, 1959.
+
+\bibitem{Home2005}
+J.~P. Home.
+\newblock Trapping and cooling of ions for quantum information processing.
+\newblock First Year Report, 2005.
+
+\bibitem{Szwer2007}
+D.~J. Szwer.
+\newblock Personal communication.
+\newblock Report, 2007.
+
+\bibitem{Webster2005}
+S.~C. Webster.
+\newblock {\em Raman Sideband Cooling and Coherent Manipulation of Trapped
+  Ions}.
+\newblock PhD thesis, University of Oxford, 2005.
+
+\bibitem{Barin1993}
+I.~Barin.
+\newblock {\em Thermochemical Data of Pure Substances}.
+\newblock VCH, Weinheim, 2 edition, 1993.
+
+\bibitem{Stevens1999}
+D.~A. Stevens.
+\newblock {\em The Quantum Manipulation of Ions}.
+\newblock PhD thesis, University of Oxford, 1999.
+
+\bibitem{Stacey2003}
+John-Patrick Stacey.
+\newblock {\em Stabilization and Control In a Linear Ion Trap}.
+\newblock PhD thesis, University of Oxford, 2003.
+
+\bibitem{Kalbfleisch2002}
+John~D. Kalbfleisch and Ross~L. Prentice.
+\newblock {\em The Statistical Analysis of Failure Time Data}.
+\newblock Wiley Series in Probability and Statistics. Wiley-Interscience, 2
+  edition, 2002.
+
+\bibitem{Steane2008}
+A.~M. Steane.
+\newblock Personal communication.
+\newblock 2008.
+
+\bibitem{Wesenberg2007}
+J.~H. Wesenberg, R.~J. Epstein, D.~Leibfried, R.~B. Blakestad, J.~Britton,
+  J.~P. Home, W.~M. Itano, J.~D. Jost, E.~Knill, C.~Langer, R.~Ozeri,
+  S.~Seidelin, and D.~J. Wineland.
+\newblock Fluorescence during doppler cooling of a single trapped atom.
+\newblock {\em Phys. Rev. A}, 76,:053416, July 2007.
+
+\bibitem{Epstein2007}
+R.~J. Epstein, S.~Seidelin, D.~Leibfried, J.~H. Wesenberg, J.~J. Bollinger,
+  J.~M. Amini, R.~B. Blakestad, J.~Britton, J.~P. Home, W.~M. Itano, J.~D.
+  Jost, E.~Knill, C.~Langer, R.~Ozeri, N.~Shiga, and D.~J. Wineland.
+\newblock Simplified motional heating rate measurements of trapped ions.
+\newblock {\em Physical Review A}, 76:033411, 2007.
+
+\bibitem{Turchette2000}
+Q.~A. Turchette, D.~Kielpinski, B.~E. King, D.~Leibfried, D.~M. Meekhof, C.~J.
+  Myatt, M.~A. Rowe, C.~A. Sackett, C.~S. Wood, W.~M. Itano, C.~Monroe, and
+  D.~J. Wineland.
+\newblock Heating of trapped ions from the quantum ground state.
+\newblock {\em Phys. Rev. A}, 61(6):063418, May 2000.
+
+\bibitem{Roos1999}
+Ch. Roos, Th. Zeiger, H.~Rohde, H.~C. N\"agerl, J.~Eschner, D.~Leibfried,
+  F.~Schmidt-Kaler, and R.~Blatt.
+\newblock Quantum state engineering on an optical transition and decoherence in
+  a paul trap.
+\newblock {\em Phys. Rev. Lett.}, 83(23):4713--4716, Dec 1999.
+
+\bibitem{Home2006b}
+J.~P. Home.
+\newblock {\em Entanglement of Two Trapped-Ion Spin Qubits}.
+\newblock PhD thesis, University of Oxford, 2006.
+
+\bibitem{Deslauriers2004}
+L.~Deslauriers, P.~C. Haljan, P.~J. Lee, K-A. Brickman, B.~B. Blinov, M.~J.
+  Madsen, and C.~Monroe.
+\newblock Zero-point cooling and low heating of trapped {C}d+111 ions.
+\newblock {\em Phys. Rev. A}, 70(4):043408, Oct 2004.
+
+\bibitem{Deslauriers2006}
+L.~Deslauriers, S.~Olmschenk, D.~Stick, W.~K. Hensinger, J.~Sterk, and
+  C.~Monroe.
+\newblock Scaling and suppression of anomalous heating in ion traps.
+\newblock {\em Physical Review Letters}, 97(10):103007, 2006.
+
+\bibitem{DeVoe2002}
+Ralph~G. DeVoe and Christian Kurtsiefer.
+\newblock Experimental study of anomalous heating and trap instabilities in a
+  microscopic $137ba$ ion trap.
+\newblock {\em Phys. Rev. A}, 65(6):063407, Jun 2002.
+
+\bibitem{Tamm2000}
+Chr. Tamm, D.~Engelke, and V.~B\"uhner.
+\newblock Spectroscopy of the electric-quadrupole transition
+  $^2${S}$_{1/2}$({F}=0)-$^2${D}$_{3/2}$({F}=2) in trapped 171{Y}b+.
+\newblock {\em Phys. Rev. A}, 61(5):053405, Apr 2000.
+
+\bibitem{Diedrich1989}
+F.~Diedrich, J.~C. Bergquist, Wayne~M. Itano, and D.~J. Wineland.
+\newblock Laser cooling to the zero-point energy of motion.
+\newblock {\em Phys. Rev. Lett.}, 62(4):403--406, Jan 1989.
+
+\bibitem{Baker1996}
+G.~A. Baker and P.~Graves-Morris.
+\newblock {\em Padé Approximants}.
+\newblock Cambridge University Press, 1996.
+
+\end{thebibliography}

@@ -1,0 +1,67 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The transition to microfabricated trap arrays}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thesis layout}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}Numerical modelling of multiple-electrode traps}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Ion trap modeling}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Trap designs}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Liverpool trap}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Design of the trap}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Analysis of trap geometry}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Effect of manufacturing imprecision}{16}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}The Sandia trap}{18}{section.2.4}
+\contentsline {section}{\numberline {2.5}Future traps}{20}{section.2.5}
+\contentsline {chapter}{\numberline {3}Ion shuttling and loading theory}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Precise shuttling}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Ion loading simulation in Sandia trap}{29}{section.3.2}
+\contentsline {chapter}{\numberline {4}Apparatus}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Vacuum system}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Vacuum chamber}{35}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Sandia trap}{35}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Calcium oven}{37}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Vacuum pumps}{38}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Optical setup}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}866nm repumping laser setup}{40}{subsection.4.2.1}
+\contentsline {subsubsection}{Frequency stabilisation of the 866nm laser}{42}{section*.5}
+\contentsline {subsubsection}{Experimental beam of the 866nm laser}{44}{section*.6}
+\contentsline {subsection}{\numberline {4.2.2}397nm Doppler cooling laser setup}{45}{subsection.4.2.2}
+\contentsline {subsubsection}{Frequency stabilisation of the 397nm laser}{45}{section*.7}
+\contentsline {subsubsection}{Experimental beam of the 397nm laser}{47}{section*.8}
+\contentsline {subsection}{\numberline {4.2.3}854nm repumping laser setup}{48}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Laser diagnostics}{49}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Trap optical setup}{52}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Photoionising lasers}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Doppler cooling lasers}{52}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Polarisation and power stability}{54}{section.4.4}
+\contentsline {section}{\numberline {4.5}Imaging system}{56}{section.4.5}
+\contentsline {section}{\numberline {4.6}Electronics}{58}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Control computer}{58}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}DC electrodes and secondary control computer}{59}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Helical resonator}{60}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Air conditioning}{60}{section.4.7}
+\contentsline {chapter}{\numberline {5}First observations}{62}{chapter.5}
+\contentsline {section}{\numberline {5.1}Preliminary Ca oven experiment}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}Bake-out of the vacuum system}{63}{section.5.2}
+\contentsline {subsubsection}{Bake-out}{64}{section*.9}
+\contentsline {section}{\numberline {5.3}Neutral atom fluorescence}{66}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Doppler-broadened neutral fluorescence spectra}{67}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Saturation effects}{72}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Oven temperature as a function of oven current}{77}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Experiments with the Sandia trap}{81}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ion loading}{81}{section.6.1}
+\contentsline {section}{\numberline {6.2}Micro-motion compensation}{83}{section.6.2}
+\contentsline {section}{\numberline {6.3}Lifetime}{88}{section.6.3}
+\contentsline {section}{\numberline {6.4}Vibrational frequency measurements}{94}{section.6.4}
+\contentsline {section}{\numberline {6.5}Loading multiple ions}{98}{section.6.5}
+\contentsline {chapter}{\numberline {7}Heating rate and ion shuttle}{100}{chapter.7}
+\contentsline {section}{\numberline {7.1}Optical system characterization}{100}{section.7.1}
+\contentsline {section}{\numberline {7.2}Heating Rate}{106}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Theoretical description}{108}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Effect of filtering the DC electrode lines}{110}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Ion shuttling}{112}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusion}{122}{chapter.8}
+\contentsline {section}{\numberline {8.1}Further plans}{125}{section.8.1}
+\contentsline {chapter}{\numberline {A}Calculation of voltage configurations}{126}{appendix.A}
+\contentsline {section}{\numberline {A.1}Function to solve voltage configuration}{126}{section.A.1}
+\contentsline {section}{\numberline {A.2}Voltage to trap at arbitrary position along the trap axis}{128}{section.A.2}
+\contentsline {section}{\numberline {A.3}Voltages for short shuttle}{128}{section.A.3}
+\contentsline {chapter}{Bibliography}{130}{section*.10}
